@@ -74,3 +74,17 @@ python3 -m pip install -r requirements.txt
 ```
 Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass  `openai_api_key` as a named parameter. (type=value_error)
 ```
+
+Create a `.env` with the following:
+
+```
+OPENAI_API_KEY=sk-eiYmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxe9fk
+SERPAPI_API_KEY=8b7be02d0cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1cb2207615
+```
+
+## Examples:
+
+- `baby_agi.ipynb`: BabyAGI example
+- `baby_agi_with_tools.ipynb`: BabyAGI with SerpAPI search
+- `metabolite_names.ipynb`: Generate alternative metabolites names using SerpAPI search
+- `beautiful_soup.ipynb`: Generate a list of products using a metabolites using SerpAPI and scraping
